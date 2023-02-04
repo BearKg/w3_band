@@ -1,0 +1,93 @@
+/* PC >= 1024px;
+Tablet >= 740px & < 1024px;
+Mobile < 740px; */
+
+
+@media(min-width: 740px) and (max-width: 1023px) {
+
+}
+
+@media(max-width: 740px) {
+    .s-full-width {
+        width: calc(100% - 16px);
+    }
+
+    .s-btn-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;  
+    }
+
+    #nav > li {
+    display: block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+
+    
+    #nav .subnav a {
+        color: #fff;
+        padding: 13px 40px;
+    }
+
+
+    #nav .subnav a:hover {
+        color: #000;
+    }
+
+    
+    #header {
+        overflow: hidden
+
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        display: block;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .row .member-item {
+        margin-bottom: 0;
+    }
+
+    #content .the-last .member-avatar{
+        margin-bottom: 0;
+    }
+
+    #tour .mobile-tour-place {
+        width: 100%;
+    }
+
+    #tour .place-infor {
+        width: calc(100% - 16px);
+    }
+
+    #contact .contact-infor {
+        padding-left: 8px;
+    }
+
+    .modal {
+        padding-top: 50px;
+    } 
+}
